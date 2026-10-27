@@ -100,3 +100,5 @@ stream pertenece a su respectivo propietario.
 ---
 
 Desarrollado por **Adrián Alvarez** ([@Cordobot](https://github.com/Cordobot)).
+
+© 2026 Adrián Alvarez. Todos los derechos reservados.
