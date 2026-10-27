@@ -1,0 +1,22 @@
+# Gradle / build
+.gradle/
+.kotlin/
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# Local configuration
+local.properties
+
+# Python (tools/)
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

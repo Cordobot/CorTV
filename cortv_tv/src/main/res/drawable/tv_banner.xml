@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180dp Android TV launcher banner: that size is required, so lint's 200dp advice for vectors doesn't apply -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="VectorRaster"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path
+        android:fillColor="#FF0C0C16"
+        android:pathData="M0,0h320v180h-320z" />
+    <path
+        android:fillColor="#FFE21B4D"
+        android:pathData="M0,150h320v30h-320z" />
+    <!-- TV screen -->
+    <path
+        android:fillColor="#FFE21B4D"
+        android:pathData="M110,40h100a10,10 0,0 1,10 10v60a10,10 0,0 1,-10 10h-100a10,10 0,0 1,-10 -10v-60a10,10 0,0 1,10 -10z" />
+    <path
+        android:fillColor="#FF0C0C16"
+        android:pathData="M118,48h84a4,4 0,0 1,4 4v56a4,4 0,0 1,-4 4h-84a4,4 0,0 1,-4 -4v-56a4,4 0,0 1,4 -4z" />
+    <!-- Play triangle -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M148,62L176,80L148,98Z" />
+    <!-- Antennas and stand -->
+    <path
+        android:strokeColor="#FFE21B4D"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M140,22L160,40L180,22M140,132h40" />
+</vector>

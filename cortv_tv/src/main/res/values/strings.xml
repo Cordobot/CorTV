@@ -1,0 +1,169 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
+    <string name="app_name" translatable="false">CorTV</string>
+
+    <!-- Navigation -->
+    <string name="nav_live">En vivo</string>
+    <string name="nav_movies">Películas</string>
+    <string name="nav_series">Series</string>
+    <string name="nav_animes">Animes</string>
+    <string name="nav_favorites">Favoritos</string>
+    <string name="nav_history">Historial</string>
+    <string name="category_live">Canales de TV</string>
+    <string name="category_search">Buscar</string>
+    <plurals name="titles_count">
+        <item quantity="one">%d título</item>
+        <item quantity="many">%d de títulos</item>
+        <item quantity="other">%d títulos</item>
+    </plurals>
+
+    <!-- Main screen -->
+    <string name="action_search">Buscar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_clear_history">Borrar historial</string>
+    <string name="empty_favorites">Aún no tienes favoritos.\nAbre un título y pulsa «Añadir a favoritos».</string>
+    <string name="empty_history">Todavía no has visto nada.\nLo que reproduzcas aparecerá aquí.</string>
+    <string name="empty_search">No se encontraron resultados.</string>
+    <string name="empty_category">No hay elementos en esta categoría.</string>
+    <string name="favorite">Favorito</string>
+
+    <!-- Search -->
+    <string name="search_hint">Buscar por título, director o actor</string>
+    <string name="filter_genre">Género</string>
+    <string name="filter_genre_all">Todos los géneros</string>
+    <string name="filter_date">Fecha</string>
+    <string name="filter_date_all">Cualquier fecha</string>
+    <string name="filter_sort">Ordenar</string>
+    <string name="filter_country_all">Todos los países</string>
+    <string name="loading_channels">Cargando canales…</string>
+    <string name="detail_country">País</string>
+    <string name="detail_network">Cadena</string>
+    <string name="detail_quality">Calidad</string>
+    <string name="detail_launched">En emisión desde</string>
+    <string name="detail_website">Web</string>
+    <string name="label_geo_blocked">Puede estar bloqueado en tu país</string>
+    <string name="label_not_24_7">No emite 24/7</string>
+    <string name="sort_relevance">Relevancia</string>
+    <string name="sort_az">A–Z</string>
+    <string name="sort_za">Z–A</string>
+    <string name="sort_newest">Más recientes</string>
+    <string name="sort_oldest">Más antiguos</string>
+
+    <!-- Details -->
+    <string name="detail_director">Director</string>
+    <string name="detail_release">Estreno</string>
+    <string name="detail_cast">Reparto</string>
+    <string name="detail_episodes">Capítulos</string>
+    <string name="director_short">Dir. %s</string>
+    <string name="no_description">Sin descripción.</string>
+    <string name="action_play">Reproducir</string>
+    <string name="action_resume">Continuar (%s)</string>
+    <string name="action_from_start">Desde el inicio</string>
+    <string name="action_add_favorite">Añadir a favoritos</string>
+    <string name="action_remove_favorite">Quitar de favoritos</string>
+    <string name="action_close">Cerrar</string>
+    <string name="season_n">Temporada %d</string>
+    <string name="episode_n_title">Capítulo %1$d: %2$s</string>
+    <string name="season_episode_title">Temporada %1$d · Capítulo %2$d: %3$s</string>
+    <string name="player_episode_title">%1$s · T%2$d:E%3$d %4$s</string>
+    <string name="episode_short">E%1$d · %2$s</string>
+    <string name="watched">Visto</string>
+    <string name="not_available">N/D</string>
+    <string name="metacritic" translatable="false">Metacritic</string>
+    <string name="metacritic_na">Metacritic N/D</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_clear_history_title">¿Borrar el historial?</string>
+    <string name="confirm_clear_history_message">Se eliminarán todos los títulos que has visto. Tus favoritos no se verán afectados.</string>
+    <string name="confirm_clear_cache_title">¿Limpiar la caché?</string>
+    <string name="confirm_clear_cache_message">Se borrarán las imágenes y los datos temporales guardados (%s). Tus favoritos, historial, progreso y ajustes no se verán afectados.</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_clear">Limpiar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_language">Idioma de la aplicación</string>
+    <string name="language_system">Idioma del sistema</string>
+    <string name="settings_aspect">Formato de pantalla</string>
+    <string name="aspect_fill">Pantalla completa</string>
+    <string name="aspect_fit">Normal</string>
+    <string name="settings_audio">Audio (doblaje)</string>
+    <string name="audio_original">Idioma original</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_english">Inglés</string>
+    <string name="settings_subtitles">Subtítulos predeterminados</string>
+    <string name="subtitles_off">Desactivados</string>
+    <string name="settings_subtitle_size">Tamaño de subtítulos</string>
+    <string name="size_small">Pequeño</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_large">Grande</string>
+    <string name="settings_subtitle_style">Estilo de subtítulos</string>
+    <string name="style_white">Blanco</string>
+    <string name="style_yellow">Amarillo</string>
+    <string name="style_black_bg">Fondo negro</string>
+    <string name="subtitle_preview">Así se verán los subtítulos</string>
+    <string name="action_clear_cache">Limpiar caché</string>
+    <string name="action_clear_cache_size">Limpiar caché (%s)</string>
+    <string name="cache_cleared">Caché limpiada: se liberaron %s.</string>
+
+    <!-- Player -->
+    <string name="player_back">Volver</string>
+    <string name="player_pause">Pausar</string>
+    <string name="player_play">Reproducir</string>
+    <string name="player_replay">Ver de nuevo</string>
+    <string name="player_skip_intro">Saltar intro</string>
+    <string name="player_audio">Audio: %s</string>
+    <string name="player_subtitles">Subtítulos: %s</string>
+    <string name="player_cast">Reparto</string>
+    <string name="player_live">EN VIVO</string>
+    <string name="player_retry">Reintentar</string>
+    <string name="player_rewind">Retroceder 10 segundos</string>
+    <string name="player_forward">Adelantar 10 segundos</string>
+    <string name="track_off">Desactivado</string>
+    <string name="track_original">Original</string>
+    <string name="track_n">Pista %d</string>
+    <string name="track_mono">Mono</string>
+    <string name="dialog_subtitles">Subtítulos</string>
+    <string name="dialog_audio">Audio / Doblaje</string>
+    <string name="no_subtitles">Este contenido no incluye subtítulos.</string>
+    <string name="single_audio">Este contenido solo tiene una pista de audio.</string>
+    <string name="error_network">No hay conexión con el servidor. Revisa tu conexión a internet.</string>
+    <string name="error_unavailable">El servidor no tiene disponible este contenido en este momento.</string>
+    <string name="error_format">El formato de este contenido no es compatible con el dispositivo.</string>
+    <string name="error_live_window">La transmisión en vivo se ha desincronizado. Pulsa Reintentar.</string>
+    <string name="error_generic">No se pudo reproducir este contenido (%s).</string>
+
+    <!-- Home, Kids and live player -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_kids">Kids</string>
+    <string name="continue_watching">Continuar viendo</string>
+    <string name="continue_last_channel">Último canal visto</string>
+    <string name="continue_episode">T%1$d:E%2$d · %3$s</string>
+    <string name="continue_next_episode">Siguiente: T%1$d:E%2$d · %3$s</string>
+    <string name="continue_time_left">Quedan %d min</string>
+    <string name="empty_home">Aquí aparecerá lo que estés viendo:\nseries, películas y tu último canal.</string>
+    <string name="empty_kids">Todavía no hay series ni películas infantiles.</string>
+    <string name="settings_country">País de los canales</string>
+    <string name="settings_country_hint">Se muestran los canales de tu país y los canales latinos de Estados Unidos.</string>
+    <plurals name="hidden_channels_hint">
+        <item quantity="one">Hay %d canal oculto porque no se pudo reproducir.</item>
+        <item quantity="many">Hay %d de canales ocultos porque no se pudieron reproducir.</item>
+        <item quantity="other">Hay %d canales ocultos porque no se pudieron reproducir.</item>
+    </plurals>
+    <string name="action_restore_hidden">Restaurar canales ocultos</string>
+    <string name="live_reload">Recargar</string>
+    <string name="live_reconnecting">Reconectando… (%1$d/%2$d)</string>
+    <string name="live_previous">Anterior</string>
+    <string name="live_next">Siguiente</string>
+    <string name="live_next_channel">Siguiente canal</string>
+    <string name="live_zap_hint">↑ ↓ o CH+ CH− para cambiar de canal</string>
+    <string name="live_error_frozen">La señal se congeló y no se pudo recuperar.</string>
+    <string name="live_skipping">«%s» no está disponible. Cambiando al siguiente canal…</string>
+    <string name="live_none_available">No se encontró ningún canal disponible. Revisa tu conexión a internet.</string>
+    <string name="live_channel_position">%1$d / %2$d</string>
+    <string name="continue_watching_hint">Continuar viendo · Mantén pulsado OK para quitar</string>
+    <string name="remove_continue_title">¿Quitar de Continuar viendo?</string>
+    <string name="remove_continue_message">«%s» dejará de aparecer en Inicio.</string>
+    <string name="action_remove">Quitar</string>
+</resources>
